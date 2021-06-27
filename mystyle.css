@@ -1,0 +1,81 @@
+html{font-size: 20; color: #000;}
+
+/* 首頁 css 優化開始 */
+/* header取消間距 開始 */
+.header_container{padding: 0px;}
+/* header取消間距 結束 */
+
+/* Nav css優化 開始 */
+nav a {color: #808080; font-weight:bold; font-size: 1.5rem; font-family: 'Kosugi Maru', sans-serif;}
+nav a:hover {color: #8080ff;}
+.navbar-toggler{color: #808080;}
+
+/* Nav css優化 結束 */
+
+/* content css優化 開始 */
+content{font-family: 'Noto Serif TC', serif; }
+content h1{font-size:2rem; font-family: 'Noto Sans TC', sans-serif;text-shadow: 0px 0px 2px #000;text-align: center;line-height: 5rem; border:1px solid #808080 ;}
+
+content h2{ text-shadow: 0px 0px 2px #000;color: #ffffff;background-color: #ebd48a; font-weight: 900;text-align: center;}
+content .row{margin-bottom: 50px;margin-top: 20px;}
+
+.shadow01{box-shadow: 0px 0px 7px 0px #000;border: 5px solid #fff;}
+.text01{font-size: 1.35rem; letter-spacing: 2px; line-height:2.5rem; text-align: justify; padding: 50px 0px 100px 0px;}
+
+
+.text03{font-size: 1.25rem; letter-spacing: 1.5px; line-height:2rem; text-align: justify;}
+.text03 p{margin-top: 30px; margin-bottom: 0px;}
+.text03 ui{margin-top: 0px; }
+.text03 li{font-size: 1.15rem; letter-spacing: 1.5px;}
+/* content css優化 結束 */
+
+/* section css優化 開始 */
+section .row{padding: 0px; }
+section img{margin: 0px 0px; }
+/* section css優化 結束 */
+
+/* footer css優化 開始 */
+footer{ color: #000000;  font-size: 1.5rem; text-align: center; margin:5px auto; }
+footer a{text-decoration: none;}
+footer .copyright{margin-top: 10px; font-size: 1.25rem;}
+/* footer css優化 結束 */
+/* 首頁 css 結束開始 */
+
+
+/* 課程頁 css優化 開始 */
+h1{color:#ff962d;text-shadow: 0px 0px 50px #c0c0c0;font-style: italic;}
+.card-img-top{height: 300px;}
+h3, h5{font-weight: 900;}
+h5{color: #808080;}
+h5 em{font-style: italic; font-weight:100;padding-left: 0.5rem;}
+
+.card-text{font-size: 1.15rem; letter-spacing: 1.5px; text-align:justify;}
+.card{margin:10px auto;}
+.list-group-flush{font-size: 1.15rem;padding-left: 0px;}
+/* 課程頁 css優化 結束 */
+
+/* 照片頁 css優化 開始 */
+#photowall{
+    margin: 5px auto;
+    text-align: center;
+}
+
+.photowall_img img {
+    margin: 5px auto;
+}
+/* 照片頁 css優化 結束 */
+
+/* 聯絡頁 css優化 開始 */
+
+.contact_text {font-size: 1.25rem; letter-spacing: 1.5px; line-height:2rem; text-align: justify; }
+#contactslogan{color: #8080c0; font-size: 1.75rem; letter-spacing: 1.5px; font-family: 'Stick', sans-serif;}
+
+form div{margin: 5px;}
+
+form .btn {
+    display: block;
+    margin: 0px auto;
+}
+
+
+/* 聯絡頁 css優化 結束 */
